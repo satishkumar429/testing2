@@ -15,7 +15,7 @@ public class Homepage extends Basepase{
 
 	@FindBy(xpath="//a[normalize-space()='Register']")
 
-	WebElement InkRegister;
+	WebElement InkRegiste;
 
 	public void clickMyAccount()
 
@@ -29,7 +29,7 @@ public class Homepage extends Basepase{
 
 	{
 
-	InkRegister.click();
+	InkRegiste.click();
 
 	}
 
